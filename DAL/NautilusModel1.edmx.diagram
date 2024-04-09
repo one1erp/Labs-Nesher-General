@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <edmx:Designer>
+    <edmx:Diagrams>
+      <edmx:Diagram DiagramId="87816fa73b6d4159a792d86317ff128a" Name="Diagram1" ZoomLevel="88">
+        <edmx:EntityTypeShape EntityType="Model.Address" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.Aliquot" Width="1.5" PointX="8.25" PointY="43.25" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.Client" Width="1.5" PointX="14.25" PointY="30.25" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.Sample" Width="1.5" PointX="16.5" PointY="42.875" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.Test" Width="1.5" PointX="13.5" PointY="48.5" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.TEST_TEMPLATE" Width="1.5" PointX="5.25" PointY="49.5" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.PhraseEntry" Width="1.5" PointX="3.75" PointY="15.875" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.PhraseHeader" Width="1.5" PointX="1.5" PointY="15.125" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.Result" Width="1.5" PointX="21.75" PointY="42.375" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.ResultTemplate" Width="1.5" PointX="3.75" PointY="20.75" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.Extension" Width="1.5" PointX="1.5" PointY="19.5" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.Operator" Width="1.5" PointX="3" PointY="47.75" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.Product" Width="1.5" PointX="14.25" PointY="24" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.Sdg" Width="1.5" PointX="11.25" PointY="45" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.ALIQUOT_FORMULATION" Width="1.5" PointX="13.5" PointY="44.5" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.WorkflowNode" Width="1.5" PointX="9" PointY="23.375" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.Workflow" Width="1.5" PointX="9.75" PointY="31.25" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.TestTemplateEx" Width="1.5" PointX="6" PointY="22.75" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.MethodSpecificInstructions" Width="1.5" PointX="12" PointY="23.375" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.LabInfo" Width="1.5" PointX="12" PointY="30.25" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.Contract" Width="1.5" PointX="16.5" PointY="36.625" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.ContractData" Width="1.5" PointX="18.75" PointY="30.875" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.AliquotTemplate" Width="1.5" PointX="6" PointY="41" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.AliquotTemplateField" Width="1.5" PointX="15" PointY="18.875" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.SchemaFieldPropmpt" Width="1.5" PointX="6.75" PointY="16.75" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.SchemaField" Width="1.5" PointX="1.5" PointY="8.75" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.SchemaEntity" Width="1.5" PointX="1.5" PointY="23.375" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.SCHEMA_TABLE" Width="2.125" PointX="0.875" PointY="3.25" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.COA_Report" Width="1.5" PointX="19.5" PointY="43.375" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.StockTemplate" Width="1.5" PointX="6" PointY="31.625" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.Destination" Width="1.5" PointX="3" PointY="58.875" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.ReportStation" Width="1.5" PointX="7.5" PointY="63.875" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.Workstation" Width="1.5" PointX="5.25" PointY="57.25" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.OperatorGroup" Width="1.5" PointX="5.25" PointY="45.875" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.CalculationFactor" Width="1.5" PointX="16.5" PointY="74.5" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.XmlStorage" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.Specification" Width="1.5" PointX="5.25" PointY="10.625" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.EntitySpecification" Width="1.5" PointX="7.5" PointY="11.75" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.SPECIFICATION_ACTION_TYPE" Width="1.5" PointX="5.75" PointY="3.75" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.SpecificationGrade" Width="1.5" PointX="13.5" PointY="38.5" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.SpecificationItem" Width="1.5" PointX="16.75" PointY="27.5" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.SpecificationItemType" Width="1.5" PointX="14.5" PointY="15.625" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.Grade" Width="1.5" PointX="5.25" PointY="65.625" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.ALIQUOT_NOTE" Width="1.5" PointX="10.5" PointY="84.25" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.LimsRole" Width="1.5" PointX="0.75" PointY="51.875" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.Challenge" Width="1.5" PointX="5.25" PointY="69.5" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.LimsGroup" Width="1.5" PointX="3" PointY="38.625" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.Worksheet" Width="1.5" PointX="10.5" PointY="38" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.WorksheetEntry" Width="1.5" PointX="13.5" PointY="58" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.WorksheetSession" Width="1.5" PointX="22" PointY="55.25" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.WorksheetTemplate" Width="1.5" PointX="10.5" PointY="62.125" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.WORKSHEET_TEMPLATE_ENTRY" Width="1.5" PointX="12.75" PointY="67.625" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.WORKSHEET_TEMPLATE_SESSION" Width="1.5" PointX="12.75" PointY="62.625" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.WORKSHEET_TEMPLATE_RESULT" Width="1.5" PointX="15" PointY="64.375" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.UNIT" Width="1.5" PointX="14.25" PointY="73" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.RACK" Width="1.5" PointX="17.25" PointY="68.5" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.RACK_ALIQUOT" Width="1.5" PointX="19.5" PointY="51.875" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.RACK_USAGE" Width="1.5" PointX="19.5" PointY="55" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.U_CLIENT_DATA" Width="1.5" PointX="19.5" PointY="35.625" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.ANALYTE" Width="1.5" PointX="1.5" PointY="32.625" IsExpanded="true" />
+        <edmx:EntityTypeShape EntityType="Model.Location" Width="1.5" PointX="9" PointY="68.625" IsExpanded="true" />
+        <edmx:AssociationConnector Association="Model.ALIQUOT_SAMPLE" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.TEST_ALIQUOT" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.CLIENT_PARENT_VERSION" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.SAMPLE_CLIENT" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.SAMPLE_PARENT" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.TEST_TEST_TEMPLATE" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.TEST_TEMPLATE_PARENT_VERSION" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.PHRASE_ENTRY_PHRASE_HEADER" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.PHRASE_HEADER_PARENT_VER" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.RESULT_TEST" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.RESULT_TEMPLATE_PHRASE" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.RESULT_RESULT_TEMPLATE" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.RESULT_TEMPLATE_PARENT_VERSION" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.RESULT_TEMPLATE_EXTENSION" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.ALIQUOT_AUTHORISED_BY" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.ALIQUOT_COMPLETED_BY" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.ALIQUOT_CREATED_BY" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.ALIQUOT_OPERATOR" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.ALIQUOT_RECEIVED_BY" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.RESULT_AUTHORISED_BY" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.RESULT_COMPLETED_BY" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.RESULT_CREATED_BY" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.RESULT_OPERATOR" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.SAMPLE_AUTHORISED_BY" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.SAMPLE_COMPLETED_BY" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.SAMPLE_CREATED_BY" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.SAMPLE_OPERATOR" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.SAMPLE_RECEIVED_BY" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.SAMPLE_SAMPLED_BY" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.TEST_AUTHORISED_BY" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.TEST_COMPLETED_BY" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.TEST_CREATED_BY" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.TEST_OPERATOR" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.TEST_TEMPLATE_OPERATOR" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.PRODUCT_PARENT_VERSION" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.SAMPLE_PRODUCT" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_SDG_SDG_RECEI_OPERATOR" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.SDG_AUTHORISED_BY" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.SDG_COMPLETED_BY" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.SDG_CREATED_BY" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.SAMPLE_SDG" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_SDG_USER_U_SDG_CLIENT" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_SDG_USER_U_SAMPLED_BY" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_SDG_USER_U_SDG_CLIENT1" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.ALIQUOT_FORMULATION_CHILD" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.ALIQUOT_FORMULATION_PARENT" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.ALIQUOT_WORKFLOW_NODE" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.RESULT_WORKFLOW_NODE" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.SAMPLE_WORKFLOW_NODE" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.SDG_WORKFLOW_NODE" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.TEST_WORKFLOW_NODE" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.WORKFLOW_NODE_PARENT" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.WORKFLOW_NODE_WORKFLOW" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.WORKFLOW_PARENT_VERSION" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_TEST_TEMPLATE_EX_PARENT_VER" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_TEST_TEMPLATE_EX_USE_U_ALIQ1" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_ALIQUOT_USER_U_TEST_TEMPLAT" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_PRODUCT_USER_U_CLIENT" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_METHOD_INSTRUCTION_PARENT_V" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_METHOD_INSTRUCTION_U_U_CLIE" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_PRODUCT_USER_U_METHOD_INSTR" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_LABS_INFO_PARENT_VERSION_ID" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_LABS_INFO_USER_U_DEFAULT_SA" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_CLIENT_USER_U_LAB_INFO_ID" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_SDG_USER_U_LAB_INFO_ID" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_CONTRACT_PARENT_VERSION_ID" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_CONTRACT_DATA_PARENT_VERSIO" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_CONTRACT_USER_U_CLIENT_ID" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_CONTRACT_DATA_USER_U_CONTRA" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_CONTRACT_DATA_USER_U_TEST_T" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.ALIQUOT_ALIQUOT_TEMPLATE" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.ALIQUOT_TEMP_FIELD_TEMPL" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.ALIQUOT_TEMPLATE_PARENT_VERSIO" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.ALIQUOT_TEMP_FIELD_SCHEMA_PROM" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.ALIQUOT_TEMP_FIELD_SCHEMA_FIEL" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.SCHEMA_FIELD_PHRASE" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.SCHEMA_PROMPT_SCHEMA_FIELD" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.RESULT_TEMPLATE_ENTITY" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_SCHEMA_E_SCHEMA_EN_SCHEMA_E" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.SCHEMA_ENTITY_COLOUR_FIELD" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.SCHEMA_ENTITY_ICON_FIELD" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.SCHEMA_ENTITY_INFOTIP_FIELD" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.SCHEMA_ENTITY_NAME_FIELD" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.SCHEMA_ENTITY_ORDER_FIELD" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.SCHEMA_PROMPT_PROMPT_ENTITY" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.SCHEMA_PROMPT_SCHEMA_ENTITY" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.SCHEMA_ENTITY_SCHEMA_TABLE" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.SCHEMA_FIELD_LOOKUP_TABLE" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.SCHEMA_FIELD_SCHEMA_TABLE" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.SCHEMA_TABLE_ACTIVE_TABLE" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.SCHEMA_TABLE_EXTRA_TABLE" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_COA_REPORT_PARENT_VERSION_I" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_COA_REPORT_WORKFLOW_NODE_ID" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_COA_REPORT_USER_U_CLIENT_ID" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_SDG_USER_U_SDG" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_COA_REPORT_USER_U_SDG" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_COA_REPORT_USER_U_AUTHORIZE" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_COA_REPORT_USER_U_CREATED_B" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_SAMPLE_USER_U_BATCH_STOCK_A" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.ALIQUOT_STOCK_TEMPLATE" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.STOCK_TEMPLATE_ALIQUOT_TEMPLAT" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.STOCK_TEMPLATE_PARENT_VERSION" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.STOCK_TEMPLATE_WORKFLOW" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.DESTINATION_EXTENSION" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.DESTINATION_PARENT_VERSION" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.DESTINATION_SCHEMA_ENTITY" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_REPORT_STATION_PARENT_VERSI" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_REPORT_STATION_USER_U_PRINT" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.WORKSTATION_DESTINATION" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.WORKSTATION_DEFAULT_OPERATOR" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_REPORT_STATION_USER_U_WORKS" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.WORKSTATION_PARENT_VERSION" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.OPERATOR_GROUP_OPERATOR" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_TEST_TEMPLATE_EX_USE_U_RESU" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.SPECIFICATION_PARENT" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.SPECIFICATION_PARENT_VERSION" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.SPECIFICATION_ENTITY_SPEC" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.SPEC_ITEM_RESULT_TEMPLATE" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.SPEC_GRADE_SPEC" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.SPEC_ITEM_GRADE" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.SPECIFICATION_ITEM_ITEM_TYPE" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.GRADE_PARENT_VERSION" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.SPEC_GRADE_GRADE" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.ALIQUOT_NOTE_ALIQUOT" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.OPERATOR_LIMS_ROLE" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.OPERATOR_ROLE1" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_CHALLENGE_PARENT_VERSION_ID" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_SAMPLE_USER_U_REAL_PRODUCT" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.ALIQUOT_GROUP" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.ALIQUOT_TEMPLATE_GROUP" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.CLIENT_GROUP" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.DESTINATION_GROUP" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.GRADE_GROUP" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_CHALLENGE_GROUP_ID" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_COA_REPORT_GROUP_ID" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_CONTRACT_DATA_GROUP_ID" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_CONTRACT_GROUP_ID" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_LABS_INFO_GROUP_ID" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_METHOD_INSTRUCTION_GROUP_ID" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_REPORT_STATION_GROUP_ID" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_TEST_TEMPLATE_EX_GROUP_ID" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.OPERATOR_GROUP_LIMS_GROUP" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.PHRASE_HEADER_GROUP" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.PRODUCT_GROUP" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.RESULT_TEMPLATE_GROUP" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.SAMPLE_GROUP" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.SDG_GROUP" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.SPECIFICATION_GROUP" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.STOCK_TEMPLATE_GROUP" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.TEST_GROUP" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.TEST_TEMPLATE_GROUP" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.WORKFLOW_GROUP" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.WORKSTATION_GROUP" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_SDG_USER_U_PERFORMED_BY" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_LABS_INFO_USER_U_DEFAULT_SD" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.WORKSHEET_ENTRY_ALIQUOT" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.WORKSHEET_ENTRY_STOCK" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.WORKSHEET_GROUP" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.WORKSHEET_TEMPLATE_GROUP" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.WORKSHEET_CREATED_BY" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.WORKSHEET_SESSION_OPERATOR" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_RESULT_WORKSHEET_WORKSHEE" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.RESULT_WORKSHEET" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.WORKS_TEMP_ENTRY_STOCK" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.WORK_TEMP_SESSION_PREP_TEMP" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.WORK_TEMP_SESSION_TEST_TEMP" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.WORKSHEET_DEF_TEST_TEMPLATE" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.WORK_TEMP_ENTRY_WORKFLOW" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.WORKSHEET_ENTRY_WORKSHEET" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.WORKSHEET_SESSION_WORKSHEET" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.WORKSHEET_WORKSHEET_TEMPLATE" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_WORKSHEET_SESSION_WTS" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.WORK_TEMP_ENTRY_WORK_TEMP" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.WORK_TEMP_SESSION_WORK_TEMP" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.WORKS_TEMP_PARENT_VERSION" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.WORKSHEET_TEMPLATE_TEST" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.WORK_TEMP_RESULT_RESULT" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_WORKSHEE_WORK_TEMP_WORKSHEE" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.ALIQUOT_UNIT" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.ALIQUOT_FORMULATION_UNIT" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.CALCULATION_FACTOR_UNIT" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.UNIT_GROUP" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_SAMPLE_USER_U_COA_UNIT" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.STOCK_TEMPLATE_REORDER_UNIT" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.STOCK_TEMPLATE_UNIT" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.TEST_TEMPLATE_UNIT" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.UNIT_PARENT_VERSION" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.WORKS_TEMP_ENTRY_UNIT" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_ALIQUOT_USER_U_COA_UNIT" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.RACK_ALIQUOT_ALIQUOT" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.RACK_GROUP" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.RACK_USAGE_EMPTIED_BY" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.RACK_USAGE_OPERATOR" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.RACK_USAGE_RACK" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.RACK_ALIQUOT_RACK_USAGE" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.RACK_USAGE_SDG" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_TEST_TEMPLATE_EX_USE_U_DEFA" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_CLIENT_DATA_GROUP_ID" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_CLIENT_DATA_PARENT_VERSION_" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_CLIENT_DATA_USER_U_CLIENT_I" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_CLIENT_DATA_USER_U_LAB_ID" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.ANALYTE_GROUP" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.ANALYTE_PARENT_VERSION" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.RESULT_ANALYTE" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.RESULT_TEMPLATE_ANALYTE" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.ALIQUOT_LOCATION" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.LOCATION_GROUP" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_SDG_USER_U_LOCATION" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.LOCATION_PARENT" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.LOCATION_PARENT_VERSION" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.SAMPLE_LOCATION" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.STOCK_TEMPLATE_LOCATION" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.TEST_LOCATION" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.TEST_TENPLATE_LOCATION" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.WORKSTATION_LOCATION" ManuallyRouted="false" />
+        <edmx:AssociationConnector Association="Model.FK_SDG_USER_U_FIELD" />
+        <edmx:EntityTypeShape EntityType="Model.U_SESS_OPERATOR" Width="2.125" PointX="18" PointY="93" />
+        <edmx:AssociationConnector Association="Model.FK_SESS_OPERATOR_PARENT_VERSIO" />
+        <edmx:AssociationConnector Association="Model.FK_SESS_OPERATOR_GROUP_ID" />
+        <edmx:AssociationConnector Association="Model.FK_SESS_OPERATOR_USER_U_OP1" />
+        <edmx:AssociationConnector Association="Model.FK_SESS_OPERATOR_USER_U_OP2" />
+      </edmx:Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
