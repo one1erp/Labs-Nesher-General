@@ -9,7 +9,6 @@ using System.IO;
 using Microsoft.Office.Interop.Outlook;
 using Attachment = System.Net.Mail.Attachment;
 using Exception = System.Exception;
-using System.Reflection;
 
 
 namespace Common
@@ -97,47 +96,50 @@ namespace Common
 
         public static bool OpenOutlook(MailDetails mailDetails)
         {
-            
+
+
             SentFromOutlook = false;
             try
             {
-                object oApp = Activator.CreateInstance(Type.GetTypeFromProgID("Outlook.Application"));
+                var oApp = new Microsoft.Office.Interop.Outlook.Application();
+                oMailItem = (MailItem)oApp.CreateItem(OlItemType.olMailItem);
+                //     var   mailItem = new ApplicationClass().CreateItem(Microsoft.Office.Interop.Outlook.OlItemType.olMailItem) as Microsoft.Office.Interop.Outlook.MailItem;
 
-                if (oApp != null)
+
+                //;המרה של רשימת הכתובות, לכתובות מחולקות ב
+                oMailItem.To = mailDetails.To.Where(item => !string.IsNullOrEmpty(item))
+                    .Aggregate("", (current, item) => current + (item + ";"));
+                oMailItem.CC = mailDetails.CC.Where(item => !string.IsNullOrEmpty(item))
+                    .Aggregate("", (current, item) => current + (item + ";"));
+
+
+
+                foreach (var item in mailDetails.AtachmentPathes)
                 {
-                    object oNS = oApp.GetType().InvokeMember("GetNamespace", BindingFlags.InvokeMethod, null, oApp, new object[] { "MAPI" });
-
-                    MailItem oMailItem = (MailItem)oApp.GetType().InvokeMember("CreateItem", BindingFlags.InvokeMethod, null, oApp, new object[] { OlItemType.olMailItem });
-
-                    oMailItem.To = mailDetails.To.Where(item => !string.IsNullOrEmpty(item))
-                        .Aggregate("", (current, item) => current + (item + ";"));
-                    oMailItem.CC = mailDetails.CC.Where(item => !string.IsNullOrEmpty(item))
-                        .Aggregate("", (current, item) => current + (item + ";"));
-
-                    foreach (var item in mailDetails.AtachmentPathes)
+                    if (!string.IsNullOrEmpty(item) && File.Exists(item))
                     {
-                        if (!string.IsNullOrEmpty(item) && File.Exists(item))
-                        {
-                            var iAttachType = (int)OlAttachmentType.olByValue;
-                            var newAtch = oMailItem.Attachments.Add(item, iAttachType, /*iPosition*/1, item);
-                            newAtch.DisplayName = Path.GetFileName(item);
-                        }
+                        var iAttachType = (int)OlAttachmentType.olByValue;
+                        var newAtch = oMailItem.Attachments.Add(item, iAttachType,
+                            /*iPosition*/1, item);
+                        newAtch.DisplayName = Path.GetFileName(item);//23-02-2023 Ashi
                     }
+                    else
+                    {
 
-                    oMailItem.Subject = mailDetails.Subject;
-
-                    ((ItemEvents_10_Event)oMailItem).Send += (MailService_Send);
-                    ((ItemEvents_10_Event)oMailItem).Close += (ThisAddIn_Close);
-
-                    oMailItem.GetType().InvokeMember("Display", BindingFlags.InvokeMethod, null, oMailItem, new object[] { true });
-
-                    return SentFromOutlook;
+                    }
                 }
-                else
-                {
-                    MessageBox.Show("Failed to create Outlook Application object.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    return false;
-                }
+
+
+                oMailItem.Subject = mailDetails.Subject;
+                ((ItemEvents_10_Event)oMailItem).Send += (MailService_Send);
+
+                ((ItemEvents_10_Event)oMailItem).Close += (ThisAddIn_Close);
+
+                oMailItem.Display(true);
+
+                return SentFromOutlook;
+
+
             }
             catch (Exception ex)
             {
@@ -186,8 +188,6 @@ namespace Common
             CC = new List<string>();
             AtachmentPathes = new List<string>();
         }
-
-
         public string SmtpClient { get; set; }
         public string FromAddress { get; set; }
         public List<string> To { get; set; }
@@ -197,25 +197,5 @@ namespace Common
         public List<string> AtachmentPathes { get; set; }
         public string UserName { get; set; }
         public string Password { get; set; }
-        public HeaderDetails HeaderDtls { get; set; }
-
-
-    }
-    public class HeaderDetails
-    {
-        public HeaderDetails()
-        {
-                
-        }
-        public string OrderName { get; set; }
-        public string CoaName { get; set; }
-        public string ClientId { get; set; }
-        public string FirstSampleDetails { get; set; }
-
-        public override string ToString()
-        {
-            return $"{OrderName}{(string.IsNullOrEmpty(CoaName) ? "" : " - ")}{(string.IsNullOrEmpty(CoaName) ? "" : CoaName)}{(string.IsNullOrEmpty(CoaName) || string.IsNullOrEmpty(ClientId) ? "" : " - ")}{(string.IsNullOrEmpty(ClientId) ? "" : ClientId)}{(string.IsNullOrEmpty(ClientId) || string.IsNullOrEmpty(FirstSampleDetails) ? "" : " - ")}{(string.IsNullOrEmpty(FirstSampleDetails) ? "" : FirstSampleDetails)}";
-        }
-
     }
 }
