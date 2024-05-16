@@ -35,8 +35,6 @@ namespace DAL
             context = new Entities(ConnectionString);
 
 
-
-
         }
         public void Connect(string cs)
         {
@@ -53,6 +51,52 @@ namespace DAL
         {
 
             return generator.GetAdoConnection();
+
+        }
+
+        public List<T> FetchDataFromDB<T>(string query, Func<OracleDataReader, T> mapFunc)
+        {
+            List<T> results = new List<T>();
+
+            #region  Sample calling format
+
+            //    List<SpecificSdgLogRow> rowsFromDB = _dal.FetchDataFromDB(query, reader =>
+            //    {
+            //        return new SpecificSdgLogRow
+            //        {
+            //            SdgId = Convert.ToInt32(reader[0]),
+            //            Time = Convert.ToDateTime(reader[1]),
+            //            Description = reader[2].ToString(),
+            //            Info = reader[3].ToString()
+            //        };
+            //    });
+
+            #endregion
+
+            try
+            {
+                var oraCon = GetOracleConnection();
+
+                using (OracleCommand command = oraCon.CreateCommand())
+                {
+                    command.CommandText = query;
+
+                    using (OracleDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            T item = mapFunc(reader);
+                            results.Add(item);
+                        }
+                    }
+                }
+
+            }
+            catch (Exception ex)
+            {
+                System.Windows.Forms.MessageBox.Show("DB ERROR " + ex.Message);
+            }
+            return results;
 
         }
 

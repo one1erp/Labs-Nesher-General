@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Data.Entity;
 using System.Data.Linq;
 using System.Data.Metadata.Edm;
 using System.Data.Objects;
 using System.Data.Objects.DataClasses;
+using System.Diagnostics;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
@@ -25,6 +27,13 @@ namespace DAL.Logic
             return context.CreateObjectSet<TEntity>();
 
         }
+
+        //aaaaaaaaaaaaaaaaaaaaaa
+        //changing to other version makes this chnges to be a must.
+        internal static DbSet<TEntity> GetAllDbSet<TEntity>(DbContext context) where TEntity : class
+        {
+            return context.Set<TEntity>();
+        }
         public static ObjectQuery<TEntity> GetAllInclude<TEntity>(Entities context, string tableToInclude) where TEntity : EntityObject
         {
             var query = context.CreateObjectSet<TEntity>().Include(tableToInclude);
@@ -35,6 +44,7 @@ namespace DAL.Logic
 
             return context.CreateObjectSet<TEntity>().ToList<TEntity>();
         }
+
 
         public static IQueryable<TEntity> FindObjectSet<TEntity>(Entities context, Expression<Func<TEntity, bool>> func) where TEntity : EntityObject
         {

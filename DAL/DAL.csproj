@@ -39,6 +39,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\dlls\Common.dll</HintPath>
     </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>..\..\..\PatholabProj\Patholab_DAL_V1\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
     <Reference Include="Oracle.DataAccess, Version=4.112.3.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\dlls\Oracle.DataAccess.dll</HintPath>
@@ -149,7 +152,6 @@
     <None Include="NautilusModel1.edmx.diagram">
       <DependentUpon>NautilusModel1.edmx</DependentUpon>
     </None>
-    <None Include="packages.config" />
     <None Include="Properties\DataSources\Entities.datasource" />
     <None Include="Properties\DataSources\Entities1.datasource" />
     <None Include="Properties\DataSources\NautiluisEntities.datasource" />

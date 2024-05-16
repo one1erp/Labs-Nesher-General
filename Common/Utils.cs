@@ -1,4 +1,5 @@
-﻿using System.Drawing;
+﻿using System;
+using System.Drawing;
 using System.Linq;
 using LSSERVICEPROVIDERLib;
 
@@ -96,6 +97,10 @@ namespace Common
 
         }
 
+        public static void CreateConstring(object ntlsCon)
+        {
+            throw new NotImplementedException();
+        }
     }
 
     
