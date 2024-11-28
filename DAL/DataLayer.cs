@@ -38,7 +38,6 @@ namespace DAL
         }
         public void Connect(string cs)
         {
-
             context = new Entities(cs);
         }
 
